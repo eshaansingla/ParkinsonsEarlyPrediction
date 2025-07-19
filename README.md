@@ -140,4 +140,4 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ---
 
-> 🧠 Built with passion to support **early detection** of neurological disorders.
+> 🧠 Built with passion to support **early detection** of parkinson's.
