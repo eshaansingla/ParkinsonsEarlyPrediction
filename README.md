@@ -23,7 +23,7 @@ This project focuses on predicting early-stage Parkinson's Disease using two typ
 
 - 🗣️ **Voice recordings** processed using a Convolutional Neural Network (CNN).  
 - ✋ **Hand tremor IMU sensor data** processed using a Dense Neural Network (DNN).  
-- 🔗 `pipeline2.py` runs **both the voice and tremor models** and performs the **combined prediction** for increased robustness.
+- 🔗 `pipeline.py` runs **both the voice and tremor models** and performs the **combined prediction** for increased robustness.
 
 ---
 
@@ -80,7 +80,7 @@ Run either the voice-only or the combined pipeline:
 ```bash
 
 # Combined model (CNN + DNN)
-python pipeline2.py
+python pipeline.py
 ```
 
 Modify dataset paths or hyperparameters directly in the script if needed.
