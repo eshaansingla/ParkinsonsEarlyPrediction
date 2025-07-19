@@ -100,8 +100,21 @@ Modify dataset paths or hyperparameters directly in the script if needed.
 
 <p align="center"> <img src="media/demo1.png" width="350"> <img src="media/demo2.png" width="350"> <img src="media/demo3.png" width="350"> </p>
 
-🔍 **Interpretation**:  
-While the individual voice prediction might indicate “Control”, the combined prediction considers tremor features and adjusts the probability accordingly → **Final diagnosis: Parkinson’s**.
+🔍 **Interpretation**:
+
+The **Voice-based model** is weighted more heavily (60%) than the **Hand Tremor model** (40%) in the final decision. This reflects medical reality — subtle voice changes often appear earlier and are more stable indicators compared to tremor readings.
+
+➡️ **Example 1**:  
+The voice model indicates a high probability for Parkinson’s and the tremor model agrees (PD 70%), resulting in a high combined PD probability (~85.59%).  
+✅ **Final Diagnosis**: Parkinson’s  
+
+➡️ **Example 2**:  
+The voice model predicts healthy, but the tremor model shows PD with 55.90% confidence. The combined probability (weighted) drops below the threshold (to ~26.89%).  
+✅ **Final Diagnosis**: Healthy  
+
+➡️ **Example 3**:  
+The voice model predicts healthy , but the tremor model shows PD with 70% confidence. The combined probability (weighted) drops below the threshold (to ~33.69%).  
+✅ **Final Diagnosis**: Healthy  
 
 ---
 
