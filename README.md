@@ -98,9 +98,7 @@ Modify dataset paths or hyperparameters directly in the script if needed.
 
 ## 🧾 Sample Outputs
 
-![Prediction Output](media/demo1.png)
-![Prediction Output](media/demo2.png)
-![Prediction Output](media/demo3.png)
+<p align="center"> <img src="media/demo1.png" width="250"> <img src="media/demo2.png" width="250"> <img src="media/demo3.png" width="250"> </p>
 
 🔍 **Interpretation**:  
 While the individual voice prediction might indicate “Control”, the combined prediction considers tremor features and adjusts the probability accordingly → **Final diagnosis: Parkinson’s**.
