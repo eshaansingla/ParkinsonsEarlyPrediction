@@ -121,7 +121,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ## 📬 Contact
 
 **Eshaan Singla**  
-📧 eshaansingla2807@email.com  
+📧 eshaansingla2807@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/eshaansingla)  
 🔗 [GitHub](https://github.com/eshaansingla)
 
