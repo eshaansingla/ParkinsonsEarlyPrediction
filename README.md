@@ -141,6 +141,12 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 **Ujjwal Aggarwal**  
 📧 uaggarwal1_be23@thapar.edu    
 🔗 [GitHub](https://github.com/ujjwx1)
+
+**Kunal**  
+📧 kunal120222@gmail.com   
+🔗 [LinkedIn](https://www.linkedin.com/in/kunal-somani-227373344/)
+🔗 [GitHub](https://github.com/Kunal-Somani)
+
 ---
 
 > 🧠 Built with passion to support **early detection** of parkinson's.
